@@ -1,0 +1,27 @@
+{
+  "name": "convert-text-table",
+  "version": "0.1.0",
+  "description": "Convert ascii tables to json arrays",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jrf0110/convert-text-table.git"
+  },
+  "keywords": [
+    "ascii",
+    "table"
+  ],
+  "author": "John Fawcett",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "6403a9e5d5d9c4c943430c7f258221349577376f",
+  "devDependencies": {
+    "mocha": "~1.12.0"
+  }
+}
