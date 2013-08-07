@@ -34,8 +34,8 @@ __input.txt__
 
 ```javascript
 var fs = require('fs');
-var input = fs.readFileSync( './input.txt' ).toString()
-var convertTextTable = reuqire('convert-tet-table');
+var input = fs.readFileSync( './input.txt' ).toString();
+var convertTextTable = require('convert-text-table');
 
 convertTextTable( input );
 /*
